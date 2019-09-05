@@ -63,11 +63,6 @@ class TestModificaInventario {
 		solveCheckGoal(fridge_cmd_solver!!, "received( conferma, torta, cibo )")
 		solveCheckGoal(fridge_cmd_solver!!, "received( conferma, pasta, cibo )", "fail")
 		solveCheckGoal(frontend_dummy!!, "missingFood")
-		
-		
-
-		//returned to waitCmd
-		solveCheckGoal(butler_solver!!, "stato( waitCmd, _, _ )")
 	}
 
 //----------------------------------------

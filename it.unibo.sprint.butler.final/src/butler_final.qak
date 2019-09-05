@@ -21,7 +21,7 @@
  *		->	il butler deve poter eseguire il comando clear
  * 
  * 	SPRINT RETROSPECTIVE:
- * 		->	il butler_solver deve conoscere tutti quelli che usano azioni,
+ * 		->	il butler_solver deve conoscere tutti gli attori che usano azioni,
  * 			si potrebbero emettere direttamente le azioni per rendere la struttura il più disaccoppiata possibile
  */ 
  
