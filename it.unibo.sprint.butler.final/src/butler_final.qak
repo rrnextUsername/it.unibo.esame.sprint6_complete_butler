@@ -5,15 +5,16 @@
  *   		->	clear: the RBR must execute in autonomous way the Clear the room task.
  *
  * 	BACKLOG ITEM:
- * 		->	BUTLER in grado di eseguire il comando prepare dato dal Maitre
- * 		->	BUTLER in grado di eseguire il comando add food dato dal Maitre
- * 		->	BUTLER in grado di eseguire il comando clear dato dal Maitre
+ * 		->	3
+ * 		->	4
+ * 		->	5
+ *		->	21
  * 
  * 	MODIFICHE DA SPRINT RETROSPECTIVE PRECEDENTI:
  * 		->	le azioni adesso hanno 5 argomenti
  * 		->	le funzioni in prolog sono state spostate in un file dataFunctions.pl e ripulite
  * 		->	il pathfinder prende la configurazione da un file pathfinderConfig.pl
- * 		->	l'esecuzione delle azioni è delegata ad attori specifici, non più hard-coded nel butler
+ * 		->	l'esecuzione delle azioni Ã¨ delegata ad attori specifici, non piÃ¹ hard-coded nel butler
  * 
  * 	SPRINT GOAL:
  *		->	il butler deve poter eseguire il comando prepare
@@ -22,7 +23,7 @@
  * 
  * 	SPRINT RETROSPECTIVE:
  * 		->	il butler_solver deve conoscere tutti gli attori che usano azioni,
- * 			si potrebbero emettere direttamente le azioni per rendere la struttura il più disaccoppiata possibile
+ * 			si potrebbero emettere direttamente le azioni per rendere la struttura il piÃ¹ disaccoppiata possibile
  */ 
  
  
