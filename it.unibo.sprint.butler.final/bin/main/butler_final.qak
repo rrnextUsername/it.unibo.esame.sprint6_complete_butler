@@ -1,9 +1,33 @@
- System butler 
- 
-/* Aggiunto quinto argomento alla regola action( ... )
+ /*	REQUIREMENTS:
+ * 		->	the RBR must be able to accept the following commands sent by the smart-phone of Maitre:
+ *			->	prepare: the RBR must execute in autonomous way the Prepare the room task.
+ *  		->	add food: the RBR must execute in autonomous way the Add food task.
+ *   		->	clear: the RBR must execute in autonomous way the Clear the room task.
+ *
+ * 	BACKLOG ITEM:
+ * 		->	BUTLER in grado di eseguire il comando prepare dato dal Maitre
+ * 		->	BUTLER in grado di eseguire il comando add food dato dal Maitre
+ * 		->	BUTLER in grado di eseguire il comando clear dato dal Maitre
  * 
- * Aggiunto secondo argomento alla regola comando( ... )
-*/
+ * 	MODIFICHE DA SPRINT RETROSPECTIVE PRECEDENTI:
+ * 		->	le azioni adesso hanno 5 argomenti
+ * 		->	le funzioni in prolog sono state spostate in un file dataFunctions.pl e ripulite
+ * 		->	il pathfinder prende la configurazione da un file pathfinderConfig.pl
+ * 		->	l'esecuzione delle azioni è delegata ad attori specifici, non più hard-coded nel butler
+ * 
+ * 	SPRINT GOAL:
+ *		->	il butler deve poter eseguire il comando prepare
+ * 		->	il butler deve poter eseguire il comando addFood
+ *		->	il butler deve poter eseguire il comando clear
+ * 
+ * 	SPRINT RETROSPECTIVE:
+ * 		->	il butler_solver deve conoscere tutti quelli che usano azioni,
+ * 			si potrebbero emettere direttamente le azioni per rendere la struttura il più disaccoppiata possibile
+ */ 
+ 
+ 
+ 
+ System butler 
  
 mqttBroker "localhost" : 1883    //192.168.1.18  192.168.43.229
 
